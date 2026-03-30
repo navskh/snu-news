@@ -1,0 +1,17 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "PDF Generator (create_pdf.py)",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["create_pdf.py"],
+      "port": null
+    },
+    {
+      "name": "Static File Server (PDF viewer)",
+      "runtimeExecutable": "python3",
+      "runtimeArgs": ["-m", "http.server", "8080"],
+      "port": 8080
+    }
+  ]
+}
